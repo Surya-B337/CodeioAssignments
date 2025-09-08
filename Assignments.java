@@ -1,8 +1,8 @@
 public class Assignments {
     public static void main(String[] args) {
-            //Exercise -1 The Light Bulb Test
-        System.out.println("Light Bulb Test");
-        System.out.println("--------------");
+        //Exercise -1 The Light Bulb Test
+        System.out.println("1. Light Bulb Test");
+        System.out.println("------------------");
         int number = 4;
         if(number % 2 == 0){
             //Even
@@ -13,9 +13,9 @@ public class Assignments {
         }
 
         //Exercise -2 Bank Balance
-        System.out.println("Bank Balance");
-        System.out.println("--------------");
-        int balance = -100;
+        System.out.println("2. Bank Balance");
+        System.out.println("---------------");
+        int balance = 500;
         if(balance > 0){
             System.out.println("Positive Balance");
         }else if(balance < 0){
@@ -24,8 +24,8 @@ public class Assignments {
             System.out.println("Zero Balance");
         }
 
-        System.out.println("Faster Runner");
-        System.out.println("-------------");
+        System.out.println("3. Faster Runner");
+        System.out.println("---------------");
         int time1 = 12;
         int time2 = 10;
         if(time1 > time2){
@@ -35,8 +35,9 @@ public class Assignments {
         }else if(time1 == time2){
             System.out.println("Tie");
         }
-        System.out.println("Biggest Treasure");
-        System.out.println("---------------");
+
+        System.out.println("4. Biggest Treasure");
+        System.out.println("-------------------");
         int x = 100;
         int y = 50;
         int z = 75;
@@ -47,16 +48,16 @@ public class Assignments {
         }else{
             System.out.println(z);
         }
-        System.out.println("Magic Calendar");
-        System.out.println("-------------");
-        int year = 2020;
+        System.out.println("5. Magic Calendar");
+        System.out.println("-----------------");
+        int year = 2003;
         if((year % 4 == 0 & year % 100 != 0) || year % 400 == 0){
             System.out.println("Leap Year");
         }else{
             System.out.println("Not a Leap Year");
         }
-        System.out.println("Report Card");
-        System.out.println("-----------");
+        System.out.println("6. Report Card");
+        System.out.println("--------------");
         int marks =  92;
         if(marks >= 90){
             System.out.println("A");
@@ -67,8 +68,8 @@ public class Assignments {
         }else{
             System.out.println("D");
         }
-        System.out.println("Robot Assistant");
-        System.out.println("--------------");
+        System.out.println("7. Robot Assistant");
+        System.out.println("------------------");
         int a = 63;
         int b = 7;
         int op = 4;
