@@ -87,5 +87,50 @@ public class Assignments {
             result = a / b;
         }
         System.out.println(result);
+
+        /******Extra Problems*****/
+        System.out.println("1. Speed Limit Check");
+        System.out.println("------------------");
+        int speedLimit = 60;
+        if(speedLimit > 60){
+            System.out.println("Overspeeding! Pay Fine.");
+        }else{
+            System.out.println("You are within the speed limit");
+        }
+        System.out.println("2. Pass or Fail in exam");
+        System.out.println("------------------------");
+        int mark  = 70;
+        if(mark >= 50){
+            System.out.println("Pass");
+        }else{
+            System.out.println("Fail");
+        }
+        System.out.println("3. Electricity Bill Discount");
+        System.out.println("---------------------------");
+        int billAmount = 400;
+        int discount = 0;
+        if(billAmount > 1000){
+            //Add 10% Discount
+            discount    = (billAmount * 10) / 100;
+            billAmount  = billAmount - discount;
+        }else if(billAmount > 500 && billAmount < 1000){
+            discount    = (billAmount * 5) / 100;
+            billAmount  = billAmount - discount;
+        }else{
+            billAmount  = billAmount;
+        }
+        System.out.println("Final Amount to be paid:::"+billAmount);
+        System.out.println("3. Grade Calculator");
+        System.out.println("-------------------");
+        int studentMarks = 74;
+        if(studentMarks >= 90){
+            System.out.println("Grade A");
+        }else if(studentMarks >= 75 && studentMarks <= 89){
+            System.out.println("Grade B");
+        }else if(studentMarks >= 50 && studentMarks <= 74){
+            System.out.println("Grade C");
+        }else{
+            System.out.println("Fail");
+        }
      }
 }
